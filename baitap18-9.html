@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" href="baitap18-9.css">
+</head>
+<body>
+    <header>
+        <h1>Cửa Hàng Online</h1>
+    </header>
+
+    <div class="container">
+        <h2>Áo Thun Nam</h2>
+        <div class="product">
+            <img src="https://bizweb.dktcdn.net/thumb/1024x1024/100/386/444/products/ao-phong-louis-vuitton-duck-intarsia-jacquard-chuan-authentic-1.jpg?v=1640150221263" alt="Áo Thun Nam">
+            <p>Giá: 250.000 VNĐ</p>
+            <div class="options">
+                <label for="size">Kích thước:</label>
+                <select id="size">
+                    <option value="S">S</option>
+                    <option value="M">M</option>
+                    <option value="L">L</option>
+                </select>
+                <br>
+                <label for="color">Màu:</label>
+                <select id="color">
+                    <option value="White">Trắng </option>
+                    <option value="blue">Xanh</option>
+                    <option value="black">Đen</option>
+                </select>
+                <br> Số lượng  
+                <button onclick="xacdinhdau('-')" id="decrease" value="-">-</button>
+                <input style="width: 30px;" type="number" id="num1" value="1" min="1">
+                <button onclick="xacdinhdau('+')" id="increase" value="+">+</button>
+                <script src="bai18-9.js"></script>
+            </div>
+            <button style="padding: 10px 20px; background-color: #ff5722; color: #ffffff; border: none; border-radius: 5px; cursor: pointer;">Mua Ngay</button>
+        </div>
+    </div>
+
+
+</body>
+</html>

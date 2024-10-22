@@ -1,0 +1,44 @@
+body{
+  font-family: serif;
+  color: yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.duc{
+  display: flex;
+  flex-direction: row;
+  width: 100% ;
+  height: 100%;
+}
+
+.huu{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  padding: 20px;
+}
+
+#p0{
+  background-color: pink;
+  justify-content: flex-start;
+  font-size: 50px;
+  padding-top: 100px;
+}
+
+#p1{
+  background: url(https://hoanghamobile.com/tin-tuc/wp-content/uploads/2024/05/anh-cap-doi-yeu-nhau-80.jpg);
+  text-shadow: 2px 2px 4px black;
+  font-size: 40px;
+}
+
+#p2{
+  background: url(https://bizweb.dktcdn.net/thumb/grande/100/302/554/files/phu-ngap-troi-hoa-trong-ngay-quoc-khanh-phap-14-7-calla-flowers-22.jpg?v=1531383713924);
+  text-shadow: 2px 2px 4px black;
+  font-size: 40px ;
+}

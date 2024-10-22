@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tạo tài khoản mới </title>
+    <link rel="stylesheet" href="baitap.css">
+  
+<body>
+    <script>
+        function validateForm (){
+         a  = document.getElementById ('p1').value;
+         b   = document.getElementById('p2').value;
+          c  = document.getElementById( 'p3').value;
+            f = document.querySelectorAll('input[type = "radio"]');
+           f.forEach(radio => { 
+            if (radio.checked){
+            g= radio.value};
+           }
+        )
+          alert ( "xin chào : "+a+""+b+""+c +""+g+ ",đã đăng kí thành công ") ;
+        }
+    </script>
+    <div class = "gioi">
+       
+        <h1> Facebook</h1>
+        <h2>Tạo tài khoản mới </h2>
+        <p>Nhanh chóng và dễ dàng  </p>
+        <div class="nam" id=" p1">
+            <input type="text" placeholder="Họ : " name="firstname" id="firstname">
+
+        </div>
+            <div class="ten " id="p2">
+            <input type="text" placeholder="Tên:" name="lastname" id="lastname"><br>
+        </div>
+           <br> <div class="tele" id = "p3">
+           <input type="text" id="age" placeholder="Số liên hệ hoặc email : " name="contact" style="width: 335px;"  > 
+        </div> 
+            <br>  <input type="password" placeholder="Nhập mật khẩu : " name="psw" style="width: 330px;" ><br> 
+
+           <br> Ngày sinh : <input type="date" name="bday" style="width: 200px;"><br>
+             
+
+           Giới tính :   <input type="radio" name="gender" value="Nam "> Nam
+          <input type="radio" name="gender" value="Nữ "> Nữ 
+          <input type="radio" name="gender" value="tùy chỉnh "> Tùy chỉnh <br> <br>
+          <select>
+            <option>Chọn danh xưng</option>
+            <option>Cô ấy : " Chúc cô ấy sinh nhật vui vẻ "</option>
+            <option>Anh ấy : " Chúc anh ấy sinh nhật vui vẻ "</option>
+            <option>Họ : " Chúc họ sinh nhật vui vẻ "</option>
+            </select><br>
+            <p style="text-align: left;">Danh xưng của bạn với tất cả mọi người.</p>
+            <input type="text" placeholder="Giới tính ( không bắt buộc ) " style="width: 335px;">
+
+         <p style="text-align: left;"><br> Những người dùng dịch vụ của chúng tôi có thể đã tải thông tin liên hệ của bạn <br>                                                                                                                                                                                                                                                                                         
+            lên Facebook. Tìm hiểu thêm.<br>
+
+            <br>Bằng cách nhấp vào Đăng ký, bạn đồng ý với Điều khoản, Chính sách quyền <br>
+               riêng tư và Chính sách cookie của chúng tôi. Bạn có thể nhận được thông báo <br>
+               của chúng tôi  qua SMS và hủy nhận bất kỳ lúc nào.</p>
+         
+          
+             <button class="bam"> Đăng ký </button><br>
+            <p style="color: blue;" >Bạn đã có tài khoản ư?</p>
+             
+          
+        </form>
+     
+    </div>
+</body>
+</html>

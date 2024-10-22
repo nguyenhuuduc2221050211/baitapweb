@@ -1,0 +1,103 @@
+body{
+    width: 990px;
+    border:  2px solid black;
+    height: 740px;
+}
+.d12{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 300px;
+}
+.d1{
+    margin-left: 5px;
+    width: 300;
+    height: 300;
+    float: left;
+    background-repeat: no-repeat;
+    background-size: 300px 300px;
+    background-image: url(https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/f1/8a/b8/f18ab860-bd48-b6d1-bdbf-ac0ad871bb6b/source/256x256bb.jpg);
+}
+.d2{
+    width: 676px;
+    height: 300px;
+    float: left;
+    text-align: center;
+    background-size: 700px 300px;
+    background-repeat: no-repeat;
+    background-image: url(https://us.123rf.com/450wm/andreahast/andreahast1508/andreahast150800008/44564112-b%C3%AA-t%C3%B4ng-m%C3%A0u-x%C3%A1m-t%C6%B0%E1%BB%9Dng-tr%E1%BB%ABu-t%C6%B0%E1%BB%A3ng-n%E1%BB%81n-k%E1%BA%BFt-c%E1%BA%A5u.jpg?ver=6);
+    margin-left: 5px;
+}
+#d21{
+    width: 600px;
+    color: white;
+    font-size: 26;
+    margin-top: 160px;
+    
+    float: left;
+    text-align: right;
+}
+#d22{
+    width: 56px;
+    float: left;
+    text-align: right;
+    margin-top: 255px;
+}
+#d23{
+    width: 56px;
+    height: 20px;
+    float: left;
+    background-color: orangered;
+    margin-left: 20px;
+}
+.d34{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 240px;
+}
+.d3{
+    margin-left: 5px;
+    float: left;
+    height: 240px;
+    width: 780px;
+    background-image: url(https://s3.cloud.cmctelecom.vn/tinhte1/2018/04/4282714_9PShuk4.jpg);
+}
+.d4{
+    width: 196px;
+    height: 240px;
+    float: left;
+    background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20190221/ourmid/pngtree-orange-solid-color-shading-texture-image_23441.jpg);
+    background-color: blue;
+    background-repeat: no-repeat;
+    text-align: right;
+    margin-left:5px ;
+    
+}
+.d5{
+    float: left;
+    height: 180px;
+    width: 990px;
+    margin-left: 1px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0qLTKuHTzFnFWX-DVLf3GyeUXQGhNS8wDdg0y8sj6gRw-R2AVrvCU7hdo-fNL7Z3dKw&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: 990px;
+    text-align: left;
+}
+#p1{
+    color: white;
+    font-size: 42;
+    margin-left: 10px;
+    height: 6px;
+}
+#p2{
+    height: 7px;
+    margin-left: 10px;
+    color: green;
+    font-size: 38;
+    height: 5px;
+}
+#p3{
+    color: white;
+    font-size: 60;
+    margin-left: 5px;
+    height: 10px;
+}
